@@ -19,11 +19,11 @@ def index():
 def candidate(x):
     data = get_all()
     result = ''
-    url = "https://picsum.photos/200"
+    url = data[x]['picture']
     result += '<pre>' + data[x]['name'] + '</pre>' \
               + '<pre>' + data[x]['position'] + '</pre>' \
               + '<pre>' + data[x]['skills'] + '</pre>'
-    return f'<img src="({url})"> {result}'
+    return f'<img src="{url}"> {result}'
 
 
 @app.route('/skills/<x>')
