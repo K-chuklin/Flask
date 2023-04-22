@@ -1,0 +1,41 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:16:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:16:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:?????:???
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:17:09] "GET /search?s=??? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:17:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:17:09] "[36mGET /uploads/cat.png HTTP/1.1[0m" 304 -
+INFO:root:?????:test
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:19:44] "GET /search?s=test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 12:19:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:04:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:04:56] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:04:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:?????:???
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:04:59] "GET /search?s=??? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:04:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:04:59] "GET /uploads/cat.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:05] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:20] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:20] "GET /uploads/1ON4LxOq9JU.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:?????:Leo
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:25] "GET /search?s=Leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2023 14:05:25] "[36mGET /uploads/1ON4LxOq9JU.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
